@@ -1,0 +1,48 @@
+body{background-color: #a72618;
+    font-family: Georgia;
+    text-align: center;
+    font-size:30px;
+    color: #000000;
+    font-style: oblique;
+    
+}
+
+h2:before, h2:after {
+  font-family: Georgia;
+  content: "\2734";
+    color: #FFFFFF;
+}
+
+::selection {
+  background-color: #D4AF37;
+}
+
+
+
+h2{color: #D4AF37;
+font-size: 60px;
+font-style: normal;
+text-align: center;
+}
+
+button{
+     margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);}
+
+button:hover{ background-color:#000000;
+color:#D4AF37;
+font-weight: bold;}
+
+.press{ background-color: #D4AF37;
+  border: none;
+  color: #000000;
+  padding: 10px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+ font-family: Georgia;}
+
